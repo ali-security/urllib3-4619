@@ -6,6 +6,9 @@ defaults:
   run:
     shell: bash
 
+env:
+  PIP_INDEX_URL: https://:2020-10-19T14:17:20.705902Z@time-machines-pypi.sealsecurity.io/
+
 jobs:
   package:
     runs-on: ubuntu-latest
