@@ -7,7 +7,7 @@ defaults:
     shell: bash
 
 env:
-  PIP_INDEX_URL: https://:2020-10-19T14:17:20.705902Z@time-machines-pypi.sealsecurity.io/
+  PIP_INDEX_URL: https://eyJjb2RlY292IjogIjIuMS4xMyIsICJhdG9taWN3cml0ZXMiOiAiMS4wLjAifQ==:2020-10-19T14:17:20.705902Z@time-machines-pypi.sealsecurity.io/
 
 jobs:
   package:
