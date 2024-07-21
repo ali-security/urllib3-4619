@@ -26,10 +26,10 @@ jobs:
           python3.7 setup.py sdist bdist_wheel;
           rstcheck README.rst CHANGES.rst
           python3.7 -m twine check dist/*
-      - Upload artifacts
+      - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: dist
+          path: dist
 
   test:
     strategy:
