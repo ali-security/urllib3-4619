@@ -14,7 +14,7 @@ if ! python3 -m pip --version; then
     sudo python3 -m pip install nox==2019.11.9
 else
     # We're not in "dual Python" mode, so we can just install Nox normally.
-    python3 -m pip install nox
+    sudo python3 -m pip install nox==2019.11.9
 fi
 
 if [[ "${NOX_SESSION}" == "app_engine" ]]; then
